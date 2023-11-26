@@ -1,0 +1,22 @@
+comandos git 
+
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git commit -m "Mensaje del commit"
+para ver  si esta con tu correo o no 
+git config --global user.name
+git config --global user.email
+
+Iniciar el repositorio local o el proyecto 
+git init
+git add *
+para registrar los cambios del repositorio local 
+git commit -m "Mensaje descriptivo de tu commit"
+para vincualar tu repositorio local con github 
+git remote add origin <URL_del_repositorio_en_GitHub>
+Para subir el proyecto 
+git push -u origin main
+para eliminar el correo despues de subir el proyecto 
+git config --global --unset user.email
+
